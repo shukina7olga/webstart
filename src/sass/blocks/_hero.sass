@@ -1,12 +1,15 @@
 .hero
-    padding: 50px 0
+    padding: 40px 0
     background-color: $bcg-hero-color
     &-block
         display: flex
     &-image
         margin-left: 100px
+        width: 58%
+        height: 70%    
         &__main
-            box-shadow: 7px 5px 10px $hero-img-shadow, 16px 22px 35px $hero-img-shadow            
+            box-shadow: 7px 5px 10px $hero-img-shadow, 16px 22px 35px $hero-img-shadow    
+              
 
     &-text
         flex-basis: 50%
@@ -14,13 +17,14 @@
             color: $text-color
             font-size: 41px
             line-height: 55px
-            margin-bottom: 40px
+            margin-bottom: 38px
             +bold
         &__subtitle
             display: inline-block
             color: $text-color
             font-size: 20px
-            margin-bottom: 69px
+            margin-bottom: 64px
+            +bold
     &-list
         margin: 0
         padding: 0
@@ -56,22 +60,31 @@
             margin-left: 0px
 @media (max-width: 768px)
     .hero
+        padding: 26px 0
         &-text
             &__title
                 font-size: 24px
                 line-height: 1.4
-                margin-bottom: 13px
+                margin-bottom: 9px
+                line-height: 29px
             &__subtitle
                 font-size: 16px
-                margin-bottom: 28px
+                margin-bottom: 25px
+                margin-left: 2px
+                line-height: 19px
         &-list
+            margin-bottom: 30px
             &__text
                 font-size: 12px
+                margin-left: -19px
+                line-height: 14px
             &__item
-                margin-bottom: 20px
+                margin-bottom: 19px
         &-image
             margin-right: 15px
             margin-left: 0px
+            height: 90%
+            width: 90%
 
 
 
