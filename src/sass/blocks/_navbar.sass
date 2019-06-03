@@ -11,9 +11,10 @@
     &__address
         display: flex
         flex-direction: column
+        font-size: 13px
     &__button
         margin-left: 30px
-        font-weight: 700 //=======//
+        font-size: 13px
         outline: none 
         cursor: pointer
         &:hover
@@ -23,9 +24,9 @@
         color: $text-color
         font-style: 700 //=====//
         font-size: 20px
-        font-weight: 700
         text-decoration: none
         margin-top: 10px
+        +bold
 @media (max-width: 768px)
     .navbar
         &__contacts
@@ -37,4 +38,5 @@
             box-shadow: none
             text-decoration: none
         &__logo
-            width: 90px
+            width: 91px
+            height: 44px
