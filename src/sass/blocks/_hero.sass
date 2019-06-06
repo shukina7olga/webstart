@@ -34,6 +34,8 @@
             align-items: center
             line-height: 24px
             margin-bottom: 25px
+            &:last-child
+                margin-bottom: 0
         &__image
             width: 40px
             height: 40px
@@ -60,20 +62,23 @@
             margin-left: 0px
 @media (max-width: 768px)
     .hero
-        padding: 26px 0
+        padding: 47px 0
         &-text
             &__title
+                margin-left: 4px
+                margin-top: -6px
                 font-size: 24px
                 line-height: 1.4
                 margin-bottom: 9px
                 line-height: 29px
             &__subtitle
                 font-size: 16px
-                margin-bottom: 25px
-                margin-left: 2px
+                margin-bottom: 27px
+                margin-left: 8px
                 line-height: 19px
         &-list
-            margin-bottom: 30px
+            margin-left: 5px
+            margin-bottom: 38px
             &__text
                 font-size: 12px
                 margin-left: -19px
@@ -81,10 +86,9 @@
             &__item
                 margin-bottom: 19px
         &-image
-            margin-right: 15px
-            margin-left: 0px
-            height: 90%
-            width: 90%
+            margin-left: 5px
+            height: 95%
+            width: 95%
 
 
 
