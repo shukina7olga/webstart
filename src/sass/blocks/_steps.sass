@@ -1,0 +1,82 @@
+.step
+    flex-basis: 20%
+    text-align: center
+    position: relative
+    &:after
+        content: ''
+        width: 72px
+        height: 25px
+        position: absolute
+        background: url('../img/steps/arrow.png') no-repeat center
+        top: -10px
+        right: -15%
+    &:last-child
+        &:after
+            display: none
+
+    &__image
+        width: 100px
+        height: 100px
+        border: 3px solid $main-color
+        border-radius: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: auto
+        margin-bottom: 30px
+    &__text
+        font-size: 14px
+        max-width: 155px
+        margin: auto
+    &s
+        margin-top: 122px 
+        margin-bottom: 97px
+        &__title
+            font-size: 30px
+            line-height: 45px
+            max-width: 662px
+            margin: auto
+            text-align: center
+        &__subtitle
+            padding-top: 50px
+            padding-bottom: 70px
+            font-size: 20px
+            display: flex
+            justify-content: center
+        &-block
+            display: flex
+
+@media (max-width: 1200px)
+    .step
+        flex-basis: 50%
+        margin-bottom: 30px
+        &:after
+            display: none
+        &s
+            &-block
+                justify-content: center
+                    
+        
+@media (max-width: 768px)
+    .step
+        margin-bottom: 30px
+        &:after
+            display: none
+        &s
+            margin-top: 25px
+            margin-bottom: 40px
+            &__title
+                font-size: 18px
+                line-height: 22px
+            &__subtitle
+                padding-top: 23px
+                padding-bottom: 32px
+                font-size: 14px
+            &-block
+                flex-direction: column
+        &__image
+            margin-bottom: 20px
+        &__text
+            font-size: 12px
+            line-height: 16px
+            width: 128px

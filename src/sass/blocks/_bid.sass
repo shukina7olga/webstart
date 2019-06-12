@@ -1,0 +1,47 @@
+.bid
+    margin-bottom: 100px
+    &-block
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        &__box
+            width: 370px
+            height: 410px
+            background-color: $bid
+            margin-right: -5px
+            position: relative
+            padding-right: 27px  
+            padding-top: 23px
+            &__text
+                font-size: 16px
+                line-height: 23px
+                max-width: 295px
+                margin: auto
+                &__bold
+                    +bold
+            &__img
+                position: absolute
+                bottom: 0
+@media (max-width: 1200px)
+    .bid
+        &-block 
+            justify-content: center
+            &__box
+                margin-bottom: 30px
+                margin-right: 1%
+
+@media (max-width: 768px)
+    .bid
+        margin-bottom: -90px
+@media (max-width: 320px)
+    .bid
+        &-block
+            &__box
+                width: 272px
+                height: 300px
+                &__text
+                    font-size: 12px
+                    line-height: 17px
+                    margin-left: 17px
+
+                

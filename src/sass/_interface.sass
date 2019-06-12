@@ -18,8 +18,10 @@ img
     border-radius: 10px
     background-color: $main-color
     border: none
+    outline: none
+    +bold
     padding: 18px 30px  
-    cursor: pointer 
+    cursor: pointer
     &:hover
         background: $button-color
 .section
@@ -32,4 +34,10 @@ img
     padding: 26px 26px
     font-size: 15px
     border-radius: 10px
+
+.arrows
+    &__left, &__right
+        &:hover
+            cursor: pointer
+            background: $border-input
 
