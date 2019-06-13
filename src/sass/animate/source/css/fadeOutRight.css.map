@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CAAV,YAAU;EACR,IAAI;IACF,OAAO,EAAE,CAAC;;EAGZ,EAAE;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,uBAAuB;;;;AAItC,AAAA,aAAa,CAAC;EACZ,cAAc,EAAE,YAAY;CAC7B",
+    "sources": [
+        "../fading_exits/fadeOutRight.scss"
+    ],
+    "names": [],
+    "file": "fadeOutRight.css"
+}
