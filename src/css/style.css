@@ -2264,6 +2264,10 @@ img {
   top: 0;
 }
 
+.map__map {
+  border: 0;
+}
+
 .contacts {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
