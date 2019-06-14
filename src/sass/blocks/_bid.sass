@@ -1,5 +1,21 @@
+
+    
 .bid
     margin-bottom: 100px
+    &-delimiter
+        margin-bottom: 100px
+        height: 280px
+        width: 100%
+        background-color: $delimiter
+        display: flex
+        &__title
+            text-align: center
+            font-size: 32px
+            max-width: 950px
+            line-height: 50px
+            margin: auto
+            +reg
+
     &-block
         display: flex
         justify-content: space-between
@@ -31,10 +47,23 @@
                 margin-right: 1%
 
 @media (max-width: 768px)
+
     .bid
         margin-bottom: -90px
+        &-delimiter
+            height: 229px
+            &__title
+                font-size: 18px
+                line-height: 20px        
 @media (max-width: 320px)
+
     .bid
+        &-delimiter
+            margin-bottom: 59px
+            &__title
+                font-size: 18px
+                line-height: 20px
+                width: 258px        
         &-block
             &__box
                 width: 272px
