@@ -1974,7 +1974,7 @@ img {
   margin-bottom: 100px;
 }
 
-.bid-delimiter {
+.bid-delemiter {
   margin-bottom: 100px;
   height: 280px;
   width: 100%;
@@ -1984,7 +1984,7 @@ img {
   display: flex;
 }
 
-.bid-delimiter__title {
+.bid-delemiter__title {
   text-align: center;
   font-size: 32px;
   max-width: 950px;
@@ -2048,20 +2048,20 @@ img {
   .bid {
     margin-bottom: -90px;
   }
-  .bid-delimiter {
+  .bid-delemiter {
     height: 229px;
   }
-  .bid-delimiter__title {
+  .bid-delemiter__title {
     font-size: 18px;
     line-height: 20px;
   }
 }
 
 @media (max-width: 320px) {
-  .bid-delimiter {
+  .bid-delemiter {
     margin-bottom: 59px;
   }
-  .bid-delimiter__title {
+  .bid-delemiter__title {
     font-size: 18px;
     line-height: 20px;
     width: 258px;
